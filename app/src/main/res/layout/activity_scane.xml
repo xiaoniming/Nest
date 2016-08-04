@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/activity_scane"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ni.nest.ScaneActivity">
+
+    <com.example.ni.nest.Scanner.Preview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/view_finder_view"
+            layout="@layout/viewfinderview"/>
+    </com.example.ni.nest.Scanner.Preview>
+    <Button
+        android:id="@+id/switch_paymode"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="70dp"
+        android:visibility="gone"
+        />
+
+
+</FrameLayout>

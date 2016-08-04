@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="ViewFinderView">
+        <attr name="frame_color" format="color" />
+        <attr name="corner_color" format="color" />
+        <attr name="money_color" format="color" />
+        <attr name="prompt_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="mask_alpha" format="integer" />
+        <attr name="corner_width" format="dimension" />
+        <attr name="window_width" format="dimension" />
+        <attr name="window_height" format="dimension" />
+        <attr name="money_size" format="dimension" />
+        <attr name="prompt_size" format="dimension" />
+        <attr name="window_centerX" format="float" />
+        <attr name="window_centerY" format="float" />
+    </declare-styleable>
+
+
+</resources>
